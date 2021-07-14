@@ -18,7 +18,7 @@ function addGS() {
           },
           redirect: 'follow', // manual, *follow, error
           //referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-          body: JSON.stringify({name:"Sungjea"}) // body data type must match "Content-Type" header
+          body: JSON.stringify({first:"Enju", last:"Park", phone:"4084372437"}) // body data type must match "Content-Type" header
         });
 }
 
